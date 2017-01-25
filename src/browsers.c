@@ -42,6 +42,18 @@
 
 /* {"search string", "belongs to"} */
 static const char *browsers[][2] = {
+
+  {"LBBROWSER", "Liebao"},
+  {"Maxthon", "Maxthon"},
+  {"SE", "Sogou"},
+  {"QQBrowser", "QQBrowser"},
+  {"QBrowser", "QQBrowser"},
+  {"UCBrowser", "UCBrowser"},
+  {"UBrowser", "UCBrowser"},
+
+  {"2345", "2345"},
+  {"BIDUBrowser", "BaiduBrowser"},
+  
   /* Game systems: most of them are based of major browsers,
    * thus they need to go before. */
   {"Xbox One", "Game Systems"},
