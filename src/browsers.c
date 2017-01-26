@@ -48,11 +48,16 @@ static const char *browsers[][2] = {
   {"SE", "Sogou"},
   {"QQBrowser", "QQBrowser"},
   {"QBrowser", "QQBrowser"},
+  {"MicroMessenger", "QQBrowser"},
   {"UCBrowser", "UCBrowser"},
   {"UBrowser", "UCBrowser"},
 
   {"2345", "2345"},
   {"BIDUBrowser", "BaiduBrowser"},
+  {"BaiduBrowser", "BaiduBrowser"},
+
+  {"Thunder", "Thunder"},
+  {"QQDownload", "QQDownload"},
   
   /* Game systems: most of them are based of major browsers,
    * thus they need to go before. */
@@ -111,7 +116,6 @@ static const char *browsers[][2] = {
   {"Mosaic", "Others"},
   {"Netscape", "Others"},
   {"SeaMonkey", "Others"},
-  {"UCBrowser", "Others"},
   {"Wget", "Others"},
   {"libfetch", "Others"},
   {"check_http", "Others"},
@@ -119,7 +123,6 @@ static const char *browsers[][2] = {
   {"curl", "Others"},
   {"midori", "Others"},
   {"w3m", "Others"},
-  {"MicroMessenger", "Others"},
   {"Apache", "Others"},
 
   /* Feed-reader-as-a-service */
